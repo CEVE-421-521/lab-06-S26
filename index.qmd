@@ -3,7 +3,7 @@ title: "Lab 6: Value of Information"
 subtitle: "CEVE 421/521"
 date: 2026-02-27
 engine: julia
-status: draft
+status: published
 
 format:
   html:
@@ -53,7 +53,7 @@ Today you'll compute the **Expected Value of Perfect Information (EVPI)** and th
 **References:**
 
 - [SimOptDecisions documentation](https://dossgollin-lab.github.io/SimOptDecisions/) — the optimization framework
-- @ruckert_flood:2019 — BRICK sea-level rise projections
+- @ruckert_coastal:2019 — BRICK sea-level rise projections
 - @zarekarizi_suboptimal:2020 — house elevation cost model
 
 ## Before Lab
@@ -143,7 +143,7 @@ house = House(
 
 ### Sea-Level Rise from BRICK
 
-We load BRICK sea-level rise projections [@ruckert_flood:2019] for Sewells Point, Norfolk, VA.
+We load BRICK sea-level rise projections [@ruckert_coastal:2019] for Sewells Point, Norfolk, VA.
 The BRICK ensemble contains thousands of SLR trajectories under each RCP scenario.
 
 The two states of the world correspond to the **emissions pathway** the world follows:
